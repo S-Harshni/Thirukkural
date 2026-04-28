@@ -1,0 +1,45 @@
+Project formulas
+================
+
+Backend (`app.py`)
+- `range(start, end + 1)` - includes both start and end kural numbers.
+- `max(1, math.ceil(total / KURALS_PER_PAGE))` - calculates total pages.
+- `(page - 1) * KURALS_PER_PAGE` - finds page start index.
+- `start + KURALS_PER_PAGE` - finds page end index.
+- `start_global + ((global_page - start_global) // PAGER_WINDOW) * PAGER_WINDOW` - finds pager window start.
+- `min(window_start + PAGER_WINDOW - 1, end_global)` - finds pager window end.
+- `start + pages - 1` - finds paal end page.
+- `end + 1` - sets next paal start page.
+- `secrets.randbelow(1000000)` - generates OTP number.
+- `datetime.utcnow() + timedelta(minutes=10)` - sets OTP expiry time.
+- `(global_page - start_global) + 1` - converts global page to local paal page.
+- `(idx // KURALS_PER_PAGE) + 1` - finds local page from search result index.
+- `start_global + local_page - 1` - converts local paal page back to global page.
+- `PAAL_START_PAGE.get(redirect_paal, PAAL_META[redirect_paal]["start"]) + (idx2 // KURALS_PER_PAGE)` - finds redirect page for searched kural.
+- `max(start_global, global_page - PAGE_JUMP)` - finds previous jump page.
+- `min(end_global, global_page + PAGE_JUMP)` - finds next jump page.
+- `page_end - page_start + 1` - counts visible pager buttons.
+
+Audio highlight (`static/part.js`)
+- `1.18` - sets audio playback speed.
+- `max(1.2, min(4.8, 0.9 + lengthUnits * 0.16))` - gives base highlight time from word length.
+- `units += 0.45` - adds pause for `, : ;`.
+- `units += 0.8` - adds pause for `. ! ?`.
+- `units += 1.1` - adds pause for `। ॥`.
+- `units += 2.8` or `units += 1.6` - adds ending pause for last word.
+- `units += 1.1` - adds pause at line break.
+- `units += 2.2` - adds pause when moving to next card.
+- `totalUnits = 2.4` or `1.5` - sets base timeline weight.
+- `totalUnits += getWordUnits(...)` - builds cumulative word timing.
+- `cumulativeUnits / totalUnits` - normalizes highlight positions.
+- `Math.floor((low + high) / 2)` - finds middle index in binary search.
+- `max(0, min(audio.currentTime / dur, 1))` - converts audio time to safe progress.
+- `rawProgress >= 0.985 ? 0.999999 : max(0, min(rawProgress * 0.965, 0.999999))` - adjusts progress to match highlight timing.
+
+UI motion (`static/app.js`, `static/landing.js`)
+- `Math.min(40, window.scrollY * 0.06)` - calculates background parallax shift.
+- `(e.clientX - r.left) / r.width` - gets horizontal pointer ratio inside a card.
+- `(e.clientY - r.top) / r.height` - gets vertical pointer ratio inside a card.
+- `(py - 0.5) * -max` - calculates X-axis card tilt.
+- `(px - 0.5) * max` - calculates Y-axis card tilt.
+- `max = 6` - limits card tilt strength to 6 degrees.

@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+
+{% block header_pagination %}
+<div class="w-full px-4 sm:px-6">
+  <div class="mx-auto flex max-w-6xl flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+    <nav class="order-3 flex flex-wrap items-center justify-center gap-2 lg:order-1 lg:flex-nowrap" aria-label="Pagination">
+      <div class="flex flex-wrap items-center justify-center gap-2 lg:flex-nowrap">
+        <div class="rounded-lg border border-[#ebcfad] bg-[#fff2df] px-3 py-1.5 shadow-sm">
+          <div class="text-[10px] font-semibold uppercase tracking-[0.2em] text-[#8f5831]">{{ chapter_label }}</div>
+          <div class="flex items-baseline gap-2">
+            {% if chapter_no %}
+              <span class="text-base font-bold text-[#5a3013]">{{ chapter_no }}</span>
+            {% endif %}
+            <span class="text-sm font-semibold text-[#8f5831]">{{ chapter_name }}</span>
+          </div>
+        </div>
+      </div>
+
+      {% if prev_url %}
+        <a
+          class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[#ebcfad] bg-[#fff2df] text-sm font-semibold text-[#5a3013] shadow-sm transition hover:bg-[#f8dfbf] focus:outline-none focus:ring-2 focus:ring-[#ef8a3a]/45 focus:ring-offset-2 focus:ring-offset-[#f7ebd6]"
+          href="{{ prev_url }}"
+          aria-label="Previous pages"
+        >
+          &#9664;
+        </a>
+      {% else %}
+        <span class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[#f0dcc4] bg-[#fff8ee] text-sm font-semibold text-[#8f5831]/60" aria-hidden="true">
+          &#9664;
+        </span>
+      {% endif %}
+
+      <div class="flex items-center gap-2">
+        {% for i in range(page_start, page_end + 1) %}
+          <a
+            class="inline-flex h-8 w-8 items-center justify-center rounded-full border text-sm font-semibold shadow-sm transition focus:outline-none focus:ring-2 focus:ring-[#ef8a3a]/45 focus:ring-offset-2 focus:ring-offset-[#f7ebd6] {{ 'bg-[#c85b18] text-white border-[#c85b18]' if i==page else 'bg-[#fff2df] text-[#5a3013] border-[#ebcfad] hover:bg-[#f8dfbf]' }}"
+            href="{{ url_for('part', paal=current_paal, page=i) }}"
+            aria-current="{{ 'page' if i==page else 'false' }}"
+          >
+            {{ i }}
+          </a>
+        {% endfor %}
+      </div>
+
+      {% if next_url %}
+        <a
+          class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[#ebcfad] bg-[#fff2df] text-sm font-semibold text-[#5a3013] shadow-sm transition hover:bg-[#f8dfbf] focus:outline-none focus:ring-2 focus:ring-[#ef8a3a]/45 focus:ring-offset-2 focus:ring-offset-[#f7ebd6]"
+          href="{{ next_url }}"
+          aria-label="Next pages"
+        >
+          &#9654;
+        </a>
+      {% else %}
+        <span class="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[#f0dcc4] bg-[#fff8ee] text-sm font-semibold text-[#8f5831]/60" aria-hidden="true">
+          &#9654;
+        </span>
+      {% endif %}
+    </nav>
+
+    <div class="order-1 flex items-center justify-center lg:order-2">
+      <div class="inline-flex items-center rounded-full bg-[#f4d6b3] p-1 shadow-sm">
+        {% for p in paals %}
+          <a
+            class="rounded-full px-4 py-1.5 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-[#ef8a3a]/45 focus:ring-offset-2 focus:ring-offset-[#f7ebd6] {{ 'bg-[#c85b18] text-white shadow-sm' if p==current_paal else 'text-[#5a3013] hover:bg-[#fff8ee]' }}"
+            href="{{ url_for('part', paal=p, page=paal_start[p]) }}"
+          >
+            {{ p }}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="order-2 hidden lg:flex"></div>
+  </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<!-- ===== CONTENT ===== -->
+<div class="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-4 py-6 sm:px-6 lg:grid-cols-[minmax(0,1fr)_320px]" aria-label="Kural layout">
+  <section class="space-y-4" aria-label="Kurals">
+    {% for k in kurals %}
+      <article
+        class="kural-card group relative mb-0 cursor-pointer select-none rounded-xl border border-[#ecd2b2] bg-[#fff7ea] p-4 pr-14 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md active:translate-y-0 data-[playing=true]:ring-2 data-[playing=true]:ring-[#ef8a3a]/40 data-[highlight=true]:ring-2 data-[highlight=true]:ring-[#ef8a3a]/40"
+        id="kural-{{ k.Number }}"
+        data-kural="{{ k.Number }}"
+      >
+        <button class="play-btn absolute right-4 top-4 inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#c85b18] text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-[#b34f14] hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[#ef8a3a]/45 focus:ring-offset-2 focus:ring-offset-[#f7ebd6]" type="button" data-play="{{ k.Number }}" aria-label="Play audio">&#9654;</button>
+
+        <div class="flex items-start gap-3">
+          <span class="text-sm font-bold text-[#c85b18]">{{ k.Number }}.</span>
+          <div class="lines text-base leading-relaxed text-[#5a3013]">
+            {{ k.Line1 }}<br />
+            {{ k.Line2 }}
+          </div>
+        </div>
+
+        <div class="mt-3 hidden border-t border-[#ebcfad] pt-3 text-sm text-[#5a3013]/80 group-data-[open=true]:block">
+          {{ k.explanation_ta or "தமிழ் விளக்கம் கிடைக்கவில்லை" }}
+        </div>
+      </article>
+    {% endfor %}
+  </section>
+
+  <aside class="speaker-panel lg:sticky lg:top-24" aria-label="ஒலி வழிகாட்டி">
+    <div class="speaker-card">
+      <div class="speaker-visual">
+        <img
+          src="{{ url_for('static', filename='speaker.jpg') }}"
+          alt="பாபா படம்"
+          class="speaker-portrait"
+        />
+        <div id="speaker-bubble" class="speaker-bubble" aria-live="polite" aria-atomic="true">
+          <span class="bubble-label">தற்போதைய சொல்</span>
+          <span id="speaker-word" class="bubble-word">—</span>
+        </div>
+        <div class="speaker-wave" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="speaker-info">
+        <div id="speaker-status" class="speaker-status">தயார்</div>
+        <div id="speaker-now" class="speaker-now">▶️ ஒரு குறளின் ஒலி பொத்தானை அழுத்துங்கள்</div>
+        <button id="speaker-stop" class="speaker-stop" type="button">ஒலியை நிறுத்து</button>
+      </div>
+    </div>
+  </aside>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script id="page-data" type="application/json">
+  {{
+    {
+      "highlight": highlight|default(""),
+      "prevUrl": prev_url,
+      "nextUrl": next_url,
+      "paal": current_paal,
+      "page": page
+    } | tojson
+  }}
+</script>
+<script src="{{ url_for('static', filename='part.js') }}" defer></script>
+{% endblock %}

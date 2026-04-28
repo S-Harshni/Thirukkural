@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="auth-page">
+  <div class="auth-card">
+    <h2>Signup</h2>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <div class="flash-list">
+          {% for category, message in messages %}
+            <div class="flash {{ category }}">{{ message }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+
+    <form class="auth-form" method="post" action="{{ url_for('signup') }}">
+      <label class="auth-label" for="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Your name" />
+
+      <label class="auth-label" for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="you@email.com" required />
+
+      <label class="auth-label" for="password">Password</label>
+      <input id="password" name="password" type="password" placeholder="••••••••" required />
+
+      <label class="auth-label" for="confirm">Confirm Password</label>
+      <input id="confirm" name="confirm" type="password" placeholder="••••••••" required />
+
+      <button class="auth-primary" type="submit">Create Account</button>
+    </form>
+
+    <p class="auth-foot">
+      கணக்கு இருக்கிறதா?
+      <a href="{{ url_for('login') }}">Login</a>
+    </p>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="auth-page">
+  <div class="auth-card">
+    <h2>Profile</h2>
+    <div class="profile-info">
+      <div><strong>Name:</strong> {{ current_user.name or "—" }}</div>
+      <div><strong>Email:</strong> {{ current_user.email or "—" }}</div>
+      <div><strong>Phone:</strong> {{ current_user.phone or "—" }}</div>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,122 @@
+<!-- templates/base.html -->
+<!doctype html>
+<html lang="ta">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>திருக்குறள்</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='animations.css') }}" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              light: "#f7ebd6",
+              sand: "#f3d7b6",
+              tan: "#ef8a3a",
+              brown: "#c85b18",
+              dark: "#8f3f14",
+              ink: "#5a3013",
+            },
+          },
+          fontFamily: {
+            sans: [
+              "\"Noto Sans Tamil\"",
+              "\"Segoe UI Variable\"",
+              "Segoe UI",
+              "system-ui",
+              "sans-serif",
+            ],
+          },
+        },
+      },
+    };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+{% set logged_in = logged_in|default(false) %}
+<body data-auth="{{ 'user' if logged_in else 'guest' }}" class="min-h-screen font-sans">
+  <header class="site-header">
+    <div class="header-top">
+      <div class="header-left">
+        <img src="{{ url_for('static', filename='logo.png') }}" class="logo" alt="SRM Logo" />
+        <div class="srm-text">
+          <div class="srm-title">SRM Institute of Science and Technology</div>
+          <div class="srm-sub">School of Computing · CINTEL Department</div>
+        </div>
+        <a href="{{ url_for('index') }}" class="home-link app-title">
+          <div class="thirukkural-title">திருக்குறள்</div>
+          <div class="subtitle">தமிழ் மரபின் பொக்கிஷம்</div>
+        </a>
+      </div>
+
+      <nav class="header-nav" aria-label="Primary">
+        {% block header_nav %}{% endblock %}
+      </nav>
+
+      <div class="header-right">
+        <div class="header-actions">
+          <input id="search-box" class="search-box" placeholder="குறள் எண் (1–1330)" />
+          <button id="search-btn" type="button">தேடு</button>
+          <button id="play-all-btn" class="play-all-btn" type="button">🔊 அனைத்தையும் ஒலி</button>
+        </div>
+
+        <div class="profile-menu" id="profile-menu">
+          <button
+            class="profile-trigger"
+            type="button"
+            aria-label="Profile"
+            aria-haspopup="menu"
+            aria-expanded="false"
+            aria-controls="profile-dropdown"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M12 12a4 4 0 1 0-4-4a4 4 0 0 0 4 4zm0 2c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5z" />
+            </svg>
+            <span class="sr-only">Profile</span>
+          </button>
+
+          <div class="profile-dropdown" id="profile-dropdown" role="menu" aria-label="Profile options">
+            <div class="menu-group auth-guest">
+              <a class="menu-item" href="{{ url_for('login') }}" role="menuitem">Login</a>
+              <a class="menu-item" href="{{ url_for('signup') }}" role="menuitem">Signup</a>
+            </div>
+
+            <div class="menu-divider"></div>
+
+            <div class="menu-group auth-user">
+              <a class="menu-item" href="{{ url_for('profile') }}" role="menuitem">Profile</a>
+              <a class="menu-item" href="{{ url_for('settings') }}" role="menuitem">Settings</a>
+            </div>
+
+            <button class="menu-item theme-toggle" type="button" id="theme-toggle" role="menuitem">
+              <span>Theme</span>
+              <span class="theme-state">Light</span>
+            </button>
+
+            <div class="menu-divider auth-user"></div>
+            <a class="menu-item auth-user" href="{{ url_for('logout') }}" role="menuitem">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-title-section">
+      <div class="header-controls">
+        {% block header_pagination %}{% endblock %}
+      </div>
+    </div>
+  </header>
+
+  <button id="to-top" class="to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

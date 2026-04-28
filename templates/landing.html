@@ -1,0 +1,73 @@
+<!-- templates/landing.html -->
+<!doctype html>
+<html lang="ta">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>திருக்குறள்</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='animations.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='landing.css') }}" />
+</head>
+<body class="landing-body">
+  <header class="site-header landing-header">
+    <div class="header-top">
+      <div class="header-left">
+        <img src="{{ url_for('static', filename='logo.png') }}" class="logo" alt="SRM Logo" />
+        <div class="srm-text">
+          <div class="srm-title">SRM Institute of Science and Technology</div>
+          <div class="srm-sub">School of Computing · CINTEL Department</div>
+        </div>
+      </div>
+
+      </div>
+  </header>
+
+  <main class="landing-main">
+    <section class="hero">
+      <div class="hero-title reveal-on-scroll" style="--reveal-delay: 0ms;">
+        <h1>திருக்குறள்</h1>
+        <p class="hero-tag">தமிழ் மரபின் பொக்கிஷம்</p>
+      </div>
+      <div class="hero-top reveal-on-scroll" style="--reveal-delay: 120ms;">
+        <h2>பாலைத் தேர்ந்தெடு</h2>
+        <p class="hero-sub">மூன்று பகுதிகளும் அழகான கார்ட்களாக — கிளிக் செய்து வாசிக்கத் தொடங்குங்கள்.</p>
+      </div>
+
+      <div class="chapter-grid" aria-label="பால் பட்டியல்">
+        {% for p in paals %}
+          <a
+            class="chapter-card reveal-on-scroll"
+            style="--i: {{ loop.index0 }};"
+            href="{{ url_for('part', paal=p, page=paal_start[p]) }}"
+            aria-label="{{ p }}"
+          >
+            <div class="card-sheen" aria-hidden="true"></div>
+            <div class="card-head">
+              <span class="chip">Pages {{ paal_meta[p]['start'] }}–{{ paal_meta[p]['end'] }}</span>
+              <span class="count">{{ paal_meta[p]['count'] }} குறள்கள்</span>
+            </div>
+            <h3>{{ p }}</h3>
+            <p class="card-sub">
+              {% if loop.index0 == 0 %}
+                அறம் · ஒழுக்கம் · வாழ்வின் அடித்தளம்
+              {% elif loop.index0 == 1 %}
+                பொருள் · அரசியல் · வாழ்க்கை நடைமுறை
+              {% else %}
+                காதல் · உணர்வு · மனித நயம்
+              {% endif %}
+            </p>
+            <div class="card-cta">
+              தொடங்கு
+              <span aria-hidden="true">→</span>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+  <script src="{{ url_for('static', filename='landing.js') }}" defer></script>
+</body>
+</html>
