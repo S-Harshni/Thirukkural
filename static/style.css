@@ -613,14 +613,16 @@ body[data-auth="user"] .auth-guest{display:none}
   font-size:11px;
   font-weight:800;
   letter-spacing:.2px;
-  color:rgba(var(--ink-rgb),.65);
+  /* Bubble background is always light, so keep this text dark in both themes. */
+  color:rgba(90,48,19,.65);
   text-transform:uppercase;
 }
 
 .bubble-word{
   font-size:16px;
   font-weight:900;
-  color:rgba(var(--ink-rgb),.92);
+  /* Bubble background is always light, so keep this text dark in both themes. */
+  color:#1a0f06;
 }
 
 .speaker-panel.speaking .speaker-bubble{
@@ -647,12 +649,14 @@ body[data-auth="user"] .auth-guest{display:none}
 .speaker-status{
   margin-top:6px;
   font-weight:800;
-  color:rgba(var(--ink-rgb),.78);
+  /* Speaker card background is always light, so keep this text dark in both themes. */
+  color:rgba(90,48,19,.78);
 }
 .speaker-now{
   margin-top:8px;
   font-size:14px;
-  color:rgba(var(--ink-rgb),.70);
+  /* Own background below is always light, so keep this text dark in both themes. */
+  color:rgba(90,48,19,.85);
   line-height:1.35;
   padding:6px 10px;
   border-radius:12px;
