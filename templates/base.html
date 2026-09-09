@@ -7,6 +7,7 @@
   <title>திருக்குறள்</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
   <link rel="stylesheet" href="{{ url_for('static', filename='animations.css') }}" />
+  <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -34,7 +35,6 @@
       },
     };
   </script>
-  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 {% set logged_in = logged_in|default(false) %}
 <body data-auth="{{ 'user' if logged_in else 'guest' }}" class="min-h-screen font-sans">
