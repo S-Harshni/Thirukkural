@@ -7,6 +7,9 @@ word highlighting, and optional user accounts.
 Built by the School of Computing, CINTEL Department, SRM Institute of Science
 and Technology.
 
+**Live:** https://thirukkural-evaz.onrender.com
+(free-tier hosting — the first request after inactivity can take ~50s to wake up)
+
 ## Features
 
 - **All 1330 kurals** across the three traditional sections (paals):
@@ -113,8 +116,12 @@ SQLite and logs OTP codes to the console instead of sending SMS.
 
 ## Deploying (Render)
 
-The app ships with a `Procfile` and `start.sh` for Render (or any
-Heroku-style host):
+Already deployed at https://thirukkural-evaz.onrender.com — a `thirukkural`
+web service (free plan) and a `thirukkural-db` Postgres database (free plan,
+**expires 2026-10-09 unless upgraded**), both auto-deploying from `main`.
+
+To set this up from scratch, the app ships with a `Procfile` and `start.sh`
+for Render (or any Heroku-style host):
 
 1. Push this repo to GitHub.
 2. In Render, create a new **Web Service** from the repo.
