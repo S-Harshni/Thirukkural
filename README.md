@@ -1,5 +1,10 @@
 # திருக்குறள் — Thirukkural
 
+[![Live](https://img.shields.io/badge/live-thirukkural--evaz.onrender.com-22c55e)](https://thirukkural-evaz.onrender.com)
+![Python](https://img.shields.io/badge/Python-3.11-3776ab?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-web_app-000000?logo=flask&logoColor=white)
+![gTTS](https://img.shields.io/badge/gTTS-Tamil_speech-4285f4)
+
 A Flask web app for reading all 1330 couplets (Kurals) of the Thirukkural, with
 Tamil commentary from classical scholars, text-to-speech narration with live
 word highlighting, and optional user accounts.
@@ -9,6 +14,12 @@ and Technology.
 
 **Live:** https://thirukkural-evaz.onrender.com
 (free-tier hosting — the first request after inactivity can take ~50s to wake up)
+
+![Landing page](docs/screenshots/landing.png)
+
+| Kurals with commentary & audio | Word-by-word narration |
+|---|---|
+| ![Kural list](docs/screenshots/kurals.png) | ![Narration highlighting the spoken word](docs/screenshots/narration.png) |
 
 ## Features
 
