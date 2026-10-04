@@ -1,0 +1,722 @@
+[
+ {
+  "kural": 6,
+  "chapter": 1,
+  "en": "What is the significance of the \"faultless way\" in spiritual growth?",
+  "hi": "आध्यात्मिक उन्नति में \"निर्दोष मार्ग\" का क्या महत्व है?"
+ },
+ {
+  "kural": 13,
+  "chapter": 2,
+  "en": "What is the effect of disappointment on the life of a person waiting?",
+  "hi": "इंतज़ार करने वाले व्यक्ति के जीवन पर निराशा का क्या असर होता है?"
+ },
+ {
+  "kural": 31,
+  "chapter": 4,
+  "en": "What is the ultimate source of happiness for a person?",
+  "hi": "किसी व्यक्ति के सुख का अंतिम स्रोत क्या है?"
+ },
+ {
+  "kural": 59,
+  "chapter": 6,
+  "en": "What is the consequence of a man's wife seeking no praise for chastity?",
+  "hi": "अगर पत्नी अपनी पवित्रता के लिए प्रशंसा न चाहे तो उसका क्या परिणाम होता है?"
+ },
+ {
+  "kural": 62,
+  "chapter": 7,
+  "en": "What is the benefit of having virtuous children in terms of karma?",
+  "hi": "कर्म के हिसाब से गुणवान संतान होने का क्या लाभ है?"
+ },
+ {
+  "kural": 76,
+  "chapter": 8,
+  "en": "Does love help individuals overcome negative habits and vices in their lives?",
+  "hi": "क्या प्रेम लोगों को अपनी बुरी आदतों और दोषों से उबरने में मदद करता है?"
+ },
+ {
+  "kural": 90,
+  "chapter": 9,
+  "en": "What happens to a guest when their host turns their face away?",
+  "hi": "जब मेज़बान मुँह फेर लेता है तो मेहमान का क्या होता है?"
+ },
+ {
+  "kural": 91,
+  "chapter": 10,
+  "en": "What makes a person's words considered virtuous and trustworthy in communication?",
+  "hi": "किसी व्यक्ति के शब्दों को सद्गुणी और भरोसेमंद क्या बनाता है?"
+ },
+ {
+  "kural": 109,
+  "chapter": 11,
+  "en": "Does a single act of kindness or benefit outweigh a severe past hurt?",
+  "hi": "क्या भलाई का एक काम किसी पुराने गहरे दुख से बढ़कर होता है?"
+ },
+ {
+  "kural": 114,
+  "chapter": 12,
+  "en": "How can one determine a person's character by observing their children?",
+  "hi": "किसी व्यक्ति के बच्चों को देखकर उसके चरित्र का पता कैसे चलता है?"
+ },
+ {
+  "kural": 121,
+  "chapter": 13,
+  "en": "How can self-control elevate a person's spiritual status and overall well-being?",
+  "hi": "आत्म-संयम व्यक्ति की आध्यात्मिक स्थिति और भलाई को कैसे ऊँचा करता है?"
+ },
+ {
+  "kural": 132,
+  "chapter": 14,
+  "en": "What is the importance of maintaining proper behavior in daily life?",
+  "hi": "दैनिक जीवन में सही आचरण बनाए रखना क्यों ज़रूरी है?"
+ },
+ {
+  "kural": 147,
+  "chapter": 15,
+  "en": "What is the ideal behavior of a husband towards his wife in marriage?",
+  "hi": "विवाह में पति का पत्नी के प्रति आदर्श व्यवहार क्या होना चाहिए?"
+ },
+ {
+  "kural": 162,
+  "chapter": 17,
+  "en": "What is the value of being free from envy towards others in life?",
+  "hi": "दूसरों से ईर्ष्या न करने का जीवन में क्या मूल्य है?"
+ },
+ {
+  "kural": 174,
+  "chapter": 18,
+  "en": "How do wise individuals manage their desires when they feel financially insecure?",
+  "hi": "आर्थिक असुरक्षा महसूस होने पर बुद्धिमान लोग अपनी इच्छाओं को कैसे संभालते हैं?"
+ },
+ {
+  "kural": 182,
+  "chapter": 19,
+  "en": "Is backstabbing worse than any other form of sin or immoral behavior?",
+  "hi": "क्या पीठ पीछे बुराई करना किसी भी दूसरे पाप से बुरा है?"
+ },
+ {
+  "kural": 199,
+  "chapter": 20,
+  "en": "What is the benefit of a wise person who avoids speaking unnecessary words?",
+  "hi": "बेकार की बातें न करने वाले बुद्धिमान व्यक्ति का क्या लाभ है?"
+ },
+ {
+  "kural": 207,
+  "chapter": 21,
+  "en": "What is the consequence of unresolved sin in one's life?",
+  "hi": "जीवन में न सुलझाए गए पाप का क्या परिणाम होता है?"
+ },
+ {
+  "kural": 211,
+  "chapter": 22,
+  "en": "What is the value of kindness or generosity to someone who doesn't reciprocate?",
+  "hi": "बदले में कुछ न लौटाने वाले व्यक्ति पर दया या उदारता करने का क्या मूल्य है?"
+ },
+ {
+  "kural": 230,
+  "chapter": 23,
+  "en": "Is death more bearable when we are unable to show kindness to others?",
+  "hi": "क्या दूसरों पर दया न कर पाने से मृत्यु अधिक सहनीय लगती है?"
+ },
+ {
+  "kural": 232,
+  "chapter": 24,
+  "en": "How does giving alms to the poor benefit the giver in the world?",
+  "hi": "गरीबों को दान देने से देने वाले को संसार में क्या लाभ होता है?"
+ },
+ {
+  "kural": 244,
+  "chapter": 25,
+  "en": "What is the outcome for a person who shows kindness to all living beings?",
+  "hi": "सभी जीवों पर दया करने वाले व्यक्ति को क्या फल मिलता है?"
+ },
+ {
+  "kural": 260,
+  "chapter": 26,
+  "en": "What is the significance of compassion towards all living beings in Hinduism?",
+  "hi": "सभी जीवों के प्रति करुणा का क्या महत्व है?"
+ },
+ {
+  "kural": 261,
+  "chapter": 27,
+  "en": "What is the purpose of spiritual practice if it causes personal suffering?",
+  "hi": "अगर आध्यात्मिक साधना से निजी कष्ट हो तो उसका उद्देश्य क्या है?"
+ },
+ {
+  "kural": 297,
+  "chapter": 30,
+  "en": "Is honesty a more important virtue than other moral qualities in a person?",
+  "hi": "क्या सच्चाई किसी व्यक्ति के बाकी नैतिक गुणों से अधिक महत्वपूर्ण है?"
+ },
+ {
+  "kural": 301,
+  "chapter": 31,
+  "en": "Is it necessary to control anger when it can't harm anyone anyway?",
+  "hi": "जब क्रोध किसी को नुकसान न पहुँचा सके, तब भी क्या उसे रोकना ज़रूरी है?"
+ },
+ {
+  "kural": 314,
+  "chapter": 32,
+  "en": "What is the ideal way to respond to someone who has wronged you?",
+  "hi": "जिसने आपके साथ गलत किया हो, उसे जवाब देने का सबसे अच्छा तरीका क्या है?"
+ },
+ {
+  "kural": 321,
+  "chapter": 33,
+  "en": "What is the moral implication of harming or destroying human life?",
+  "hi": "मानव जीवन को नुकसान पहुँचाने या नष्ट करने का नैतिक अर्थ क्या है?"
+ },
+ {
+  "kural": 339,
+  "chapter": 34,
+  "en": "What is the nature of life and death in terms of sleep and awakening?",
+  "hi": "नींद और जागने के रूप में जीवन और मृत्यु का स्वभाव क्या है?"
+ },
+ {
+  "kural": 343,
+  "chapter": 35,
+  "en": "What is the goal of a spiritual ascetic who renounces worldly desires?",
+  "hi": "सांसारिक इच्छाओं को त्यागने वाले तपस्वी का लक्ष्य क्या होता है?"
+ },
+ {
+  "kural": 367,
+  "chapter": 37,
+  "en": "What is the relationship between desire and achieving spiritual immortality?",
+  "hi": "इच्छा और आध्यात्मिक अमरता पाने के बीच क्या संबंध है?"
+ },
+ {
+  "kural": 389,
+  "chapter": 39,
+  "en": "What is the role of a ruler in maintaining social harmony and order?",
+  "hi": "समाज में सद्भाव और व्यवस्था बनाए रखने में राजा की क्या भूमिका है?"
+ },
+ {
+  "kural": 392,
+  "chapter": 40,
+  "en": "What role do letters and numbers play in a person's perception and understanding?",
+  "hi": "अक्षर और अंक व्यक्ति की समझ और दृष्टि में क्या भूमिका निभाते हैं?"
+ },
+ {
+  "kural": 410,
+  "chapter": 41,
+  "en": "How do learned individuals view those who are not familiar with their works?",
+  "hi": "विद्वान लोग उन्हें कैसे देखते हैं जो उनके ग्रंथों से परिचित नहीं हैं?"
+ },
+ {
+  "kural": 415,
+  "chapter": 42,
+  "en": "What is the significance of good words in navigating life's uncertain situations?",
+  "hi": "जीवन की अनिश्चित परिस्थितियों में अच्छे शब्दों का क्या महत्व है?"
+ },
+ {
+  "kural": 429,
+  "chapter": 43,
+  "en": "What is the benefit of foreknowledge and preparation in avoiding calamities?",
+  "hi": "आपदाओं से बचने में पहले से जानने और तैयारी करने का क्या लाभ है?"
+ },
+ {
+  "kural": 433,
+  "chapter": 44,
+  "en": "What happens to a person who fears guilt for a minor mistake?",
+  "hi": "छोटी सी गलती के लिए भी अपराध-बोध से डरने वाले व्यक्ति का क्या होता है?"
+ },
+ {
+  "kural": 442,
+  "chapter": 45,
+  "en": "What is the role of a king towards his citizens in difficult times?",
+  "hi": "कठिन समय में राजा की अपनी प्रजा के प्रति क्या भूमिका होती है?"
+ },
+ {
+  "kural": 460,
+  "chapter": 46,
+  "en": "How does the company of good people impact one's life and well-being?",
+  "hi": "अच्छे लोगों की संगति व्यक्ति के जीवन और भलाई पर कैसे असर डालती है?"
+ },
+ {
+  "kural": 470,
+  "chapter": 47,
+  "en": "What is the importance of self-reflection in maintaining a good reputation?",
+  "hi": "अच्छी प्रतिष्ठा बनाए रखने में आत्म-चिंतन का क्या महत्व है?"
+ },
+ {
+  "kural": 474,
+  "chapter": 48,
+  "en": "What happens to someone who overestimates their abilities and lacks self-awareness?",
+  "hi": "जो अपनी क्षमता को ज़्यादा आँकता है और खुद को नहीं पहचानता, उसका क्या होता है?"
+ },
+ {
+  "kural": 486,
+  "chapter": 49,
+  "en": "What is the benefit of waiting for the right moment to act?",
+  "hi": "काम करने के लिए सही समय का इंतज़ार करने का क्या लाभ है?"
+ },
+ {
+  "kural": 492,
+  "chapter": 50,
+  "en": "What is the strategic value of attacking a fortified position?",
+  "hi": "किलेबंद स्थान पर हमला करने का रणनीतिक महत्व क्या है?"
+ },
+ {
+  "kural": 509,
+  "chapter": 51,
+  "en": "How should a king make decisions about who to trust in his kingdom?",
+  "hi": "राजा को अपने राज्य में किस पर भरोसा करना है, यह कैसे तय करना चाहिए?"
+ },
+ {
+  "kural": 512,
+  "chapter": 52,
+  "en": "What is the role of a wise ruler in maintaining the kingdom's prosperity?",
+  "hi": "राज्य की समृद्धि बनाए रखने में बुद्धिमान शासक की क्या भूमिका है?"
+ },
+ {
+  "kural": 530,
+  "chapter": 53,
+  "en": "What should a king do when a former vassal returns to reclaim their position?",
+  "hi": "जब कोई पुराना सेवक अपना स्थान वापस पाने लौटे तो राजा को क्या करना चाहिए?"
+ },
+ {
+  "kural": 531,
+  "chapter": 54,
+  "en": "What can lead to negative consequences when we are extremely happy?",
+  "hi": "बहुत ज़्यादा खुश होने पर किन बातों से बुरे परिणाम हो सकते हैं?"
+ },
+ {
+  "kural": 550,
+  "chapter": 55,
+  "en": "Is it wise to punish with death when there's still life to be saved?",
+  "hi": "जब किसी जीवन को अभी बचाया जा सकता हो, तब मृत्युदंड देना क्या बुद्धिमानी है?"
+ },
+ {
+  "kural": 554,
+  "chapter": 56,
+  "en": "What happens when a ruler disregards the consequences of their actions?",
+  "hi": "जब शासक अपने कामों के परिणामों की परवाह नहीं करता तो क्या होता है?"
+ },
+ {
+  "kural": 568,
+  "chapter": 57,
+  "en": "What happens when a leader delegates decision-making to others without self-reflection?",
+  "hi": "जब नेता बिना खुद सोचे-समझे फ़ैसले दूसरों पर छोड़ देता है तो क्या होता है?"
+ },
+ {
+  "kural": 579,
+  "chapter": 58,
+  "en": "What is the ideal attitude to have towards someone who has wronged us?",
+  "hi": "जिसने हमारे साथ गलत किया हो, उसके प्रति आदर्श रवैया क्या होना चाहिए?"
+ },
+ {
+  "kural": 587,
+  "chapter": 59,
+  "en": "What is the definition of a person who can uncover hidden truths?",
+  "hi": "छिपी हुई सच्चाइयों को उजागर करने वाले व्यक्ति की परिभाषा क्या है?"
+ },
+ {
+  "kural": 596,
+  "chapter": 60,
+  "en": "Can a person's true greatness be taken away by external circumstances?",
+  "hi": "क्या बाहरी परिस्थितियाँ किसी व्यक्ति की सच्ची महानता छीन सकती हैं?"
+ },
+ {
+  "kural": 608,
+  "chapter": 61,
+  "en": "How can idleness affect even the most powerful and wealthy individuals?",
+  "hi": "आलस्य सबसे शक्तिशाली और धनी लोगों को भी कैसे प्रभावित करता है?"
+ },
+ {
+  "kural": 620,
+  "chapter": 62,
+  "en": "What is the secret to overcoming fear and staying motivated in difficult times?",
+  "hi": "कठिन समय में डर पर जीत पाने और प्रेरित रहने का रहस्य क्या है?"
+ },
+ {
+  "kural": 628,
+  "chapter": 63,
+  "en": "Is seeking pleasure and accepting distress as natural a key to happiness?",
+  "hi": "क्या सुख चाहना और दुख को स्वाभाविक मानना ही खुशी की कुंजी है?"
+ },
+ {
+  "kural": 636,
+  "chapter": 64,
+  "en": "How can one surpass someone with natural intelligence and education through strategy alone?",
+  "hi": "स्वाभाविक बुद्धि और शिक्षा वाले व्यक्ति से केवल रणनीति के बल पर आगे कैसे निकलें?"
+ },
+ {
+  "kural": 645,
+  "chapter": 65,
+  "en": "How can I confidently express my opinions without being swayed by opposing views?",
+  "hi": "विरोधी विचारों से डगमगाए बिना अपनी राय आत्मविश्वास से कैसे रखूँ?"
+ },
+ {
+  "kural": 654,
+  "chapter": 66,
+  "en": "What is the moral lesson for leaders in the face of danger or adversity?",
+  "hi": "खतरे या विपत्ति के समय नेताओं के लिए क्या नैतिक सीख है?"
+ },
+ {
+  "kural": 674,
+  "chapter": 68,
+  "en": "What happens when a task is not completed successfully and hostility arises?",
+  "hi": "जब कोई काम सफलतापूर्वक पूरा न हो और दुश्मनी पैदा हो जाए तो क्या होता है?"
+ },
+ {
+  "kural": 682,
+  "chapter": 69,
+  "en": "What qualifications make an ambassador effective in their interactions with other rulers?",
+  "hi": "दूसरे शासकों से व्यवहार में एक दूत को कौन से गुण प्रभावी बनाते हैं?"
+ },
+ {
+  "kural": 700,
+  "chapter": 70,
+  "en": "What happens when a minister's familiarity with the king leads to poor judgment?",
+  "hi": "जब मंत्री की राजा से नज़दीकी उसके गलत फ़ैसलों की वजह बनती है तो क्या होता है?"
+ },
+ {
+  "kural": 705,
+  "chapter": 71,
+  "en": "Can our own eyes truly judge the beauty of another's eyes?",
+  "hi": "क्या हमारी अपनी आँखें दूसरे की आँखों की सुंदरता को सच में परख सकती हैं?"
+ },
+ {
+  "kural": 719,
+  "chapter": 72,
+  "en": "When should one speak highly of virtues in a gathering of the virtuous?",
+  "hi": "सज्जनों की सभा में गुणों की प्रशंसा कब करनी चाहिए?"
+ },
+ {
+  "kural": 728,
+  "chapter": 73,
+  "en": "What is the value of education if one cannot speak well in public?",
+  "hi": "अगर कोई सभा में अच्छा बोल न सके तो शिक्षा का क्या मूल्य है?"
+ },
+ {
+  "kural": 736,
+  "chapter": 74,
+  "en": "What is the ideal state of a kingdom in terms of self-defense and prosperity?",
+  "hi": "आत्मरक्षा और समृद्धि के हिसाब से एक आदर्श राज्य कैसा होता है?"
+ },
+ {
+  "kural": 748,
+  "chapter": 75,
+  "en": "What does it mean to \"overcome\" without losing one's ground in a challenge?",
+  "hi": "किसी चुनौती में अपनी ज़मीन खोए बिना \"जीतने\" का क्या अर्थ है?"
+ },
+ {
+  "kural": 755,
+  "chapter": 76,
+  "en": "What is the moral implication of accumulating wealth without showing mercy and love?",
+  "hi": "दया और प्रेम दिखाए बिना धन इकट्ठा करने का नैतिक अर्थ क्या है?"
+ },
+ {
+  "kural": 770,
+  "chapter": 77,
+  "en": "What is the key to a successful army's long-term stability and success?",
+  "hi": "किसी सेना की लंबी स्थिरता और सफलता की कुंजी क्या है?"
+ },
+ {
+  "kural": 772,
+  "chapter": 78,
+  "en": "What is the advantage of missing a target rather than hitting the wrong one?",
+  "hi": "गलत लक्ष्य पर लगने की बजाय निशाना चूक जाने का क्या फ़ायदा है?"
+ },
+ {
+  "kural": 782,
+  "chapter": 79,
+  "en": "What is the difference between the growth and decline of wise and foolish friendships?",
+  "hi": "बुद्धिमानों और मूर्खों की दोस्ती के बढ़ने और घटने में क्या अंतर है?"
+ },
+ {
+  "kural": 799,
+  "chapter": 80,
+  "en": "What is the value of true friendship in times of great hardship?",
+  "hi": "बड़े संकट के समय सच्ची दोस्ती का क्या मूल्य है?"
+ },
+ {
+  "kural": 813,
+  "chapter": 82,
+  "en": "What is the common trait among those who prioritize material gain over relationships?",
+  "hi": "जो लोग रिश्तों से ज़्यादा भौतिक लाभ को महत्व देते हैं, उनमें क्या समानता है?"
+ },
+ {
+  "kural": 826,
+  "chapter": 83,
+  "en": "How can one discern true intentions from flattery or insincere words?",
+  "hi": "चापलूसी या झूठे शब्दों से सच्चे इरादों को कैसे पहचानें?"
+ },
+ {
+  "kural": 833,
+  "chapter": 84,
+  "en": "What are the characteristics of a foolish person in terms of behavior?",
+  "hi": "व्यवहार के हिसाब से मूर्ख व्यक्ति की क्या पहचान है?"
+ },
+ {
+  "kural": 848,
+  "chapter": 85,
+  "en": "What is the nature of a person who refuses to follow guidance?",
+  "hi": "मार्गदर्शन मानने से इनकार करने वाले व्यक्ति का स्वभाव कैसा होता है?"
+ },
+ {
+  "kural": 857,
+  "chapter": 86,
+  "en": "What is the consequence of solely focusing on revenge and hatred towards others?",
+  "hi": "दूसरों के प्रति केवल बदले और नफ़रत पर ध्यान देने का क्या परिणाम होता है?"
+ },
+ {
+  "kural": 861,
+  "chapter": 87,
+  "en": "What is the moral of treating the strong with respect and the weak with disdain?",
+  "hi": "ताकतवर का सम्मान और कमज़ोर का अपमान करने से क्या सीख मिलती है?"
+ },
+ {
+  "kural": 872,
+  "chapter": 88,
+  "en": "What is the difference between a warrior's and a minister's approach to conflict?",
+  "hi": "संघर्ष के प्रति योद्धा और मंत्री के दृष्टिकोण में क्या अंतर है?"
+ },
+ {
+  "kural": 889,
+  "chapter": 89,
+  "en": "How small can internal hatred still cause significant harm to a person?",
+  "hi": "मन के भीतर की छोटी सी नफ़रत भी व्यक्ति को कितना बड़ा नुकसान पहुँचा सकती है?"
+ },
+ {
+  "kural": 900,
+  "chapter": 90,
+  "en": "What happens to those who are powerful but lack self-discipline and control?",
+  "hi": "जो शक्तिशाली हैं पर जिनमें आत्म-अनुशासन और संयम नहीं है, उनका क्या होता है?"
+ },
+ {
+  "kural": 906,
+  "chapter": 91,
+  "en": "What is the value of humility in a relationship with a strong partner?",
+  "hi": "किसी मज़बूत साथी के साथ रिश्ते में विनम्रता का क्या मूल्य है?"
+ },
+ {
+  "kural": 916,
+  "chapter": 92,
+  "en": "What happens when someone seeks praise from others for their own good deeds?",
+  "hi": "जब कोई अपने अच्छे कामों के लिए दूसरों से प्रशंसा चाहता है तो क्या होता है?"
+ },
+ {
+  "kural": 926,
+  "chapter": 93,
+  "en": "Does doing something that has consequences equal the consequences of the action?",
+  "hi": "क्या किसी काम को करना उसके परिणाम भुगतने के बराबर है?"
+ },
+ {
+  "kural": 940,
+  "chapter": 94,
+  "en": "How does attachment to worldly pleasures affect one's spiritual well-being?",
+  "hi": "सांसारिक सुखों से लगाव व्यक्ति की आध्यात्मिक भलाई पर कैसे असर डालता है?"
+ },
+ {
+  "kural": 948,
+  "chapter": 95,
+  "en": "What is the primary goal of a physician in treating a patient?",
+  "hi": "रोगी का इलाज करते समय वैद्य का मुख्य लक्ष्य क्या होता है?"
+ },
+ {
+  "kural": 960,
+  "chapter": 96,
+  "en": "How does modesty contribute to a good reputation in society?",
+  "hi": "विनम्रता समाज में अच्छी प्रतिष्ठा बनाने में कैसे मदद करती है?"
+ },
+ {
+  "kural": 968,
+  "chapter": 97,
+  "en": "What is the point of preserving one's dignity in the face of defeat?",
+  "hi": "हार के सामने अपनी गरिमा बचाए रखने का क्या अर्थ है?"
+ },
+ {
+  "kural": 972,
+  "chapter": 98,
+  "en": "Why do people share a common origin but exhibit unique characteristics?",
+  "hi": "लोगों की उत्पत्ति एक होने पर भी उनके गुण अलग-अलग क्यों होते हैं?"
+ },
+ {
+  "kural": 982,
+  "chapter": 99,
+  "en": "What is the distinction between true and worldly pleasures in a virtuous person?",
+  "hi": "गुणवान व्यक्ति के लिए सच्चे सुख और सांसारिक सुख में क्या अंतर है?"
+ },
+ {
+  "kural": 995,
+  "chapter": 100,
+  "en": "Can we still show kindness to someone we dislike, even if they provoke us?",
+  "hi": "जिसे हम पसंद नहीं करते और जो हमें उकसाए, क्या उस पर भी दया कर सकते हैं?"
+ },
+ {
+  "kural": 1008,
+  "chapter": 101,
+  "en": "What is the significance of the etty tree in this metaphorical context?",
+  "hi": "इस रूपक में एट्टी के पेड़ का क्या महत्व है?"
+ },
+ {
+  "kural": 1012,
+  "chapter": 102,
+  "en": "What distinguishes a virtuous person from an ordinary person in terms of behavior?",
+  "hi": "व्यवहार में सद्गुणी व्यक्ति को साधारण व्यक्ति से क्या अलग करता है?"
+ },
+ {
+  "kural": 1021,
+  "chapter": 103,
+  "en": "What is the most important quality for a parent to possess?",
+  "hi": "माता-पिता में सबसे ज़रूरी गुण कौन सा है?"
+ },
+ {
+  "kural": 1035,
+  "chapter": 104,
+  "en": "What is the moral of the person who earns by hard work and gives?",
+  "hi": "मेहनत से कमाकर दूसरों को देने वाले व्यक्ति से क्या सीख मिलती है?"
+ },
+ {
+  "kural": 1050,
+  "chapter": 105,
+  "en": "What is the fate of the poor who refuse to give up worldly possessions?",
+  "hi": "जो गरीब सांसारिक चीज़ें छोड़ने से इनकार करते हैं, उनकी क्या गति होती है?"
+ },
+ {
+  "kural": 1058,
+  "chapter": 106,
+  "en": "What would happen if everyone had enough to meet their basic needs?",
+  "hi": "अगर सबके पास अपनी बुनियादी ज़रूरतें पूरी करने भर का हो तो क्या होगा?"
+ },
+ {
+  "kural": 1065,
+  "chapter": 107,
+  "en": "What is the value of hard work and perseverance in achieving true happiness?",
+  "hi": "सच्ची खुशी पाने में कड़ी मेहनत और लगन का क्या मूल्य है?"
+ },
+ {
+  "kural": 1077,
+  "chapter": 108,
+  "en": "What is the moral of being humble and not being easily swayed?",
+  "hi": "विनम्र रहने और आसानी से न डगमगाने की क्या सीख है?"
+ },
+ {
+  "kural": 1086,
+  "chapter": 109,
+  "en": "How can a woman's eyebrows be used to conceal her emotional vulnerability?",
+  "hi": "एक स्त्री की भौहें उसकी भावनात्मक कमज़ोरी को कैसे छिपा सकती हैं?"
+ },
+ {
+  "kural": 1091,
+  "chapter": 110,
+  "en": "What is the purpose of a person's gaze in determining their character traits?",
+  "hi": "किसी की नज़र से उसके स्वभाव का पता लगाने का क्या उद्देश्य है?"
+ },
+ {
+  "kural": 1108,
+  "chapter": 111,
+  "en": "What is the significance of a gentle breeze in a romantic relationship?",
+  "hi": "प्रेम संबंध में हल्की हवा के झोंके का क्या महत्व है?"
+ },
+ {
+  "kural": 1116,
+  "chapter": 112,
+  "en": "What happens when beauty and truth become indistinguishable in a person?",
+  "hi": "जब किसी व्यक्ति में सुंदरता और सच्चाई में फ़र्क न रहे तो क्या होता है?"
+ },
+ {
+  "kural": 1140,
+  "chapter": 114,
+  "en": "Why do people laugh at us, even if they don't know our inner struggles?",
+  "hi": "लोग हम पर क्यों हँसते हैं, भले ही वे हमारे मन के संघर्ष न जानते हों?"
+ },
+ {
+  "kural": 1142,
+  "chapter": 115,
+  "en": "How does gossip spread quickly about someone, even if they are unaware of it?",
+  "hi": "किसी के बारे में अफ़वाह इतनी जल्दी कैसे फैलती है, भले ही उसे पता न हो?"
+ },
+ {
+  "kural": 1158,
+  "chapter": 116,
+  "en": "What is the nature of pain in relationships versus social isolation?",
+  "hi": "रिश्तों के दर्द और समाज से अलग होने के दर्द में क्या अंतर है?"
+ },
+ {
+  "kural": 1161,
+  "chapter": 117,
+  "en": "How does releasing one's emotions to others help alleviate emotional pain?",
+  "hi": "अपनी भावनाएँ दूसरों से कहने से मन का दर्द कैसे कम होता है?"
+ },
+ {
+  "kural": 1193,
+  "chapter": 120,
+  "en": "What is the condition for someone to truly value their own life?",
+  "hi": "किसी व्यक्ति के लिए अपने जीवन को सच में मूल्यवान मानने की शर्त क्या है?"
+ },
+ {
+  "kural": 1204,
+  "chapter": 121,
+  "en": "Does the presence of God in our soul reciprocate in our presence of Him?",
+  "hi": "क्या हमारी आत्मा में ईश्वर की उपस्थिति के बदले हम भी उसमें उपस्थित होते हैं?"
+ },
+ {
+  "kural": 1217,
+  "chapter": 122,
+  "en": "What is the relationship between one's waking life and their dreams?",
+  "hi": "किसी के जागते जीवन और उसके सपनों के बीच क्या संबंध है?"
+ },
+ {
+  "kural": 1227,
+  "chapter": 123,
+  "en": "What is the nature of a problem that worsens over time?",
+  "hi": "समय के साथ बढ़ती जाने वाली समस्या का स्वभाव कैसा होता है?"
+ },
+ {
+  "kural": 1238,
+  "chapter": 124,
+  "en": "What is the consequence of breaking a romantic relationship?",
+  "hi": "प्रेम संबंध तोड़ने का क्या परिणाम होता है?"
+ },
+ {
+  "kural": 1242,
+  "chapter": 125,
+  "en": "What is the advice given to one who has fallen into foolish behavior?",
+  "hi": "मूर्खतापूर्ण व्यवहार में पड़ चुके व्यक्ति को क्या सलाह दी जाती है?"
+ },
+ {
+  "kural": 1268,
+  "chapter": 127,
+  "en": "What is the ideal balance between worldly success and personal happiness?",
+  "hi": "सांसारिक सफलता और निजी खुशी के बीच आदर्श संतुलन क्या है?"
+ },
+ {
+  "kural": 1277,
+  "chapter": 128,
+  "en": "What does it mean for someone to be separated from their loved one?",
+  "hi": "किसी का अपने प्रियजन से बिछड़ जाने का क्या अर्थ है?"
+ },
+ {
+  "kural": 1289,
+  "chapter": 129,
+  "en": "What is the subtlety and complexity of human sexual pleasure?",
+  "hi": "मानवीय प्रेम-सुख की सूक्ष्मता और जटिलता क्या है?"
+ },
+ {
+  "kural": 1295,
+  "chapter": 130,
+  "en": "What is the paradoxical nature of one's emotional state in a relationship?",
+  "hi": "किसी रिश्ते में व्यक्ति की भावनात्मक स्थिति का विरोधाभासी स्वभाव क्या है?"
+ },
+ {
+  "kural": 1303,
+  "chapter": 131,
+  "en": "What is the moral of rejecting someone who has pretended to dislike you?",
+  "hi": "जिसने आपसे नापसंदगी का दिखावा किया हो, उसे ठुकराने की क्या सीख है?"
+ },
+ {
+  "kural": 1317,
+  "chapter": 132,
+  "en": "What does a change in heart reveal about the depth of a loved one's feelings?",
+  "hi": "मन बदल जाना किसी प्रियजन की भावनाओं की गहराई के बारे में क्या बताता है?"
+ },
+ {
+  "kural": 1329,
+  "chapter": 133,
+  "en": "What is the ideal approach to win back a lost love's affection?",
+  "hi": "खोए हुए प्रेम का स्नेह फिर से पाने का आदर्श तरीका क्या है?"
+ }
+]

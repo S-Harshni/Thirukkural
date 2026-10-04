@@ -1,0 +1,6 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 18958.06it/s]
+zero_shot:qwen2.5:3b {"questions": 80, "off_topic": 30, "cites_target": 0.237, "cites_target_when_retrieved": 0.594, "answered_not_declined": 0.925, "declined_off_topic": 0.867, "citations_valid": 1, "language_ok": 0.755, "json_ok": 0.982, "latency_p50_ms": 5533}
+few_shot:qwen2.5:3b {"questions": 80, "off_topic": 30, "cites_target": 0.312, "cites_target_when_retrieved": 0.781, "answered_not_declined": 0.95, "declined_off_topic": 0.9, "citations_valid": 1, "language_ok": 0.98, "json_ok": 0.909, "latency_p50_ms": 8785}
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
